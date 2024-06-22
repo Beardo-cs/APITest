@@ -1,0 +1,4 @@
+com/qapitol/sample/apitest/JokeApi.class
+com/qapitol/sample/apitest/impl/LoginServiceImpl.class
+com/qapitol/sample/apitest/pojos/Joke.class
+com/qapitol/sample/apitest/LoginPage.class

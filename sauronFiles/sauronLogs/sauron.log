@@ -1,0 +1,191 @@
+06.22.2024 16:47:35.001,[1] Sauron-Undefined sauron.build.version INFO --- API Request ---
+06.22.2024 16:47:35.007,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/login
+06.22.2024 16:47:35.008,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:35.009,[1] Sauron-Undefined sauron.build.version INFO Content-Type: [application/json]
+06.22.2024 16:47:35.011,[1] Sauron-Undefined sauron.build.version INFO Accept: [application/json]
+06.22.2024 16:47:36.746,[1] Sauron-Undefined sauron.build.version INFO --- API Response ---
+06.22.2024 16:47:36.751,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/login
+06.22.2024 16:47:36.752,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:36.757,[1] Sauron-Undefined sauron.build.version INFO Access-Control-Allow-Origin: [*]
+06.22.2024 16:47:36.757,[1] Sauron-Undefined sauron.build.version INFO CF-Cache-Status: [DYNAMIC]
+06.22.2024 16:47:36.758,[1] Sauron-Undefined sauron.build.version INFO CF-RAY: [897bd536ac861794-MAA]
+06.22.2024 16:47:36.758,[1] Sauron-Undefined sauron.build.version INFO connection: [keep-alive]
+06.22.2024 16:47:36.758,[1] Sauron-Undefined sauron.build.version INFO Content-Length: [29]
+06.22.2024 16:47:36.759,[1] Sauron-Undefined sauron.build.version INFO content-type: [application/json; charset=utf-8]
+06.22.2024 16:47:36.759,[1] Sauron-Undefined sauron.build.version INFO Date: [Sat, 22 Jun 2024 11:17:36 GMT]
+06.22.2024 16:47:36.760,[1] Sauron-Undefined sauron.build.version INFO Etag: [W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"]
+06.22.2024 16:47:36.760,[1] Sauron-Undefined sauron.build.version INFO Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
+06.22.2024 16:47:36.760,[1] Sauron-Undefined sauron.build.version INFO Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1719055056&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=bNUvBj2mi%2BvmaE6pCyeEFhZyrU5RfdVrgHkgJkCfaWA%3D"}]}]
+06.22.2024 16:47:36.761,[1] Sauron-Undefined sauron.build.version INFO Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1719055056&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=bNUvBj2mi%2BvmaE6pCyeEFhZyrU5RfdVrgHkgJkCfaWA%3D]
+06.22.2024 16:47:36.765,[1] Sauron-Undefined sauron.build.version INFO Server: [cloudflare]
+06.22.2024 16:47:36.765,[1] Sauron-Undefined sauron.build.version INFO Via: [1.1 vegur]
+06.22.2024 16:47:36.765,[1] Sauron-Undefined sauron.build.version INFO X-Powered-By: [Express]
+06.22.2024 16:47:36.919,[1] Sauron-Undefined sauron.build.version INFO Login called and Token is QpwL5tke4Pnpja7X4
+06.22.2024 16:47:36.945,[1] Sauron-Undefined sauron.build.version INFO --- API Request ---
+06.22.2024 16:47:36.946,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/login
+06.22.2024 16:47:36.946,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:36.947,[1] Sauron-Undefined sauron.build.version INFO Authorization: [Bearer QpwL5tke4Pnpja7X4]
+06.22.2024 16:47:36.947,[1] Sauron-Undefined sauron.build.version INFO Content-Type: [application/json]
+06.22.2024 16:47:36.947,[1] Sauron-Undefined sauron.build.version INFO Accept: [application/json]
+06.22.2024 16:47:37.335,[1] Sauron-Undefined sauron.build.version INFO --- API Response ---
+06.22.2024 16:47:37.340,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/login
+06.22.2024 16:47:37.342,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:37.343,[1] Sauron-Undefined sauron.build.version INFO Access-Control-Allow-Origin: [*]
+06.22.2024 16:47:37.343,[1] Sauron-Undefined sauron.build.version INFO CF-Cache-Status: [DYNAMIC]
+06.22.2024 16:47:37.344,[1] Sauron-Undefined sauron.build.version INFO CF-RAY: [897bd53b19ff7fab-MAA]
+06.22.2024 16:47:37.344,[1] Sauron-Undefined sauron.build.version INFO connection: [keep-alive]
+06.22.2024 16:47:37.344,[1] Sauron-Undefined sauron.build.version INFO Content-Length: [29]
+06.22.2024 16:47:37.344,[1] Sauron-Undefined sauron.build.version INFO content-type: [application/json; charset=utf-8]
+06.22.2024 16:47:37.344,[1] Sauron-Undefined sauron.build.version INFO Date: [Sat, 22 Jun 2024 11:17:37 GMT]
+06.22.2024 16:47:37.345,[1] Sauron-Undefined sauron.build.version INFO Etag: [W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"]
+06.22.2024 16:47:37.346,[1] Sauron-Undefined sauron.build.version INFO Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
+06.22.2024 16:47:37.347,[1] Sauron-Undefined sauron.build.version INFO Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1719055057&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=QtwBP0J9%2FT654bHA17bnMmnHzH%2BDJIEsspG41LhsbJo%3D"}]}]
+06.22.2024 16:47:37.348,[1] Sauron-Undefined sauron.build.version INFO Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1719055057&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=QtwBP0J9%2FT654bHA17bnMmnHzH%2BDJIEsspG41LhsbJo%3D]
+06.22.2024 16:47:37.348,[1] Sauron-Undefined sauron.build.version INFO Server: [cloudflare]
+06.22.2024 16:47:37.348,[1] Sauron-Undefined sauron.build.version INFO Via: [1.1 vegur]
+06.22.2024 16:47:37.349,[1] Sauron-Undefined sauron.build.version INFO X-Powered-By: [Express]
+06.22.2024 16:47:37.352,[1] Sauron-Undefined sauron.build.version INFO Login called and Token is QpwL5tke4Pnpja7X4
+06.22.2024 16:47:38.117,[1] Sauron-Undefined sauron.build.version INFO --- API Request ---
+06.22.2024 16:47:38.120,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/register
+06.22.2024 16:47:38.120,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:38.121,[1] Sauron-Undefined sauron.build.version INFO Authorization: [Bearer QpwL5tke4Pnpja7X4]
+06.22.2024 16:47:38.121,[1] Sauron-Undefined sauron.build.version INFO Content-Type: [application/json]
+06.22.2024 16:47:38.121,[1] Sauron-Undefined sauron.build.version INFO Accept: [application/json]
+06.22.2024 16:47:38.562,[1] Sauron-Undefined sauron.build.version INFO --- API Response ---
+06.22.2024 16:47:38.569,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/register
+06.22.2024 16:47:38.572,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:38.572,[1] Sauron-Undefined sauron.build.version INFO Access-Control-Allow-Origin: [*]
+06.22.2024 16:47:38.573,[1] Sauron-Undefined sauron.build.version INFO CF-Cache-Status: [DYNAMIC]
+06.22.2024 16:47:38.573,[1] Sauron-Undefined sauron.build.version INFO CF-RAY: [897bd54269189135-MAA]
+06.22.2024 16:47:38.573,[1] Sauron-Undefined sauron.build.version INFO connection: [keep-alive]
+06.22.2024 16:47:38.573,[1] Sauron-Undefined sauron.build.version INFO Content-Length: [28]
+06.22.2024 16:47:38.574,[1] Sauron-Undefined sauron.build.version INFO content-type: [application/json; charset=utf-8]
+06.22.2024 16:47:38.575,[1] Sauron-Undefined sauron.build.version INFO Date: [Sat, 22 Jun 2024 11:17:38 GMT]
+06.22.2024 16:47:38.576,[1] Sauron-Undefined sauron.build.version INFO Etag: [W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"]
+06.22.2024 16:47:38.577,[1] Sauron-Undefined sauron.build.version INFO Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
+06.22.2024 16:47:38.578,[1] Sauron-Undefined sauron.build.version INFO Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1719055058&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=VXjZydnZfZF%2BQCC9Kq%2FDPBx9J730Aqe3mtyhi2qpFg0%3D"}]}]
+06.22.2024 16:47:38.579,[1] Sauron-Undefined sauron.build.version INFO Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1719055058&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=VXjZydnZfZF%2BQCC9Kq%2FDPBx9J730Aqe3mtyhi2qpFg0%3D]
+06.22.2024 16:47:38.580,[1] Sauron-Undefined sauron.build.version INFO Server: [cloudflare]
+06.22.2024 16:47:38.580,[1] Sauron-Undefined sauron.build.version INFO Via: [1.1 vegur]
+06.22.2024 16:47:38.580,[1] Sauron-Undefined sauron.build.version INFO X-Powered-By: [Express]
+06.22.2024 16:47:38.661,[1] Sauron-Undefined sauron.build.version FINE RetryAnalyzer, Retrycount: 0
+06.22.2024 16:47:38.705,[1] Sauron-Undefined sauron.build.version INFO --- API Request ---
+06.22.2024 16:47:38.706,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/register
+06.22.2024 16:47:38.706,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:38.706,[1] Sauron-Undefined sauron.build.version INFO Authorization: [Bearer QpwL5tke4Pnpja7X4]
+06.22.2024 16:47:38.706,[1] Sauron-Undefined sauron.build.version INFO Content-Type: [application/json]
+06.22.2024 16:47:38.708,[1] Sauron-Undefined sauron.build.version INFO Accept: [application/json]
+06.22.2024 16:47:39.138,[1] Sauron-Undefined sauron.build.version INFO --- API Response ---
+06.22.2024 16:47:39.143,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/register
+06.22.2024 16:47:39.145,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:39.148,[1] Sauron-Undefined sauron.build.version INFO Access-Control-Allow-Origin: [*]
+06.22.2024 16:47:39.149,[1] Sauron-Undefined sauron.build.version INFO CF-Cache-Status: [DYNAMIC]
+06.22.2024 16:47:39.149,[1] Sauron-Undefined sauron.build.version INFO CF-RAY: [897bd5460ec1398f-MAA]
+06.22.2024 16:47:39.150,[1] Sauron-Undefined sauron.build.version INFO connection: [keep-alive]
+06.22.2024 16:47:39.150,[1] Sauron-Undefined sauron.build.version INFO Content-Length: [28]
+06.22.2024 16:47:39.150,[1] Sauron-Undefined sauron.build.version INFO content-type: [application/json; charset=utf-8]
+06.22.2024 16:47:39.150,[1] Sauron-Undefined sauron.build.version INFO Date: [Sat, 22 Jun 2024 11:17:39 GMT]
+06.22.2024 16:47:39.151,[1] Sauron-Undefined sauron.build.version INFO Etag: [W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"]
+06.22.2024 16:47:39.151,[1] Sauron-Undefined sauron.build.version INFO Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
+06.22.2024 16:47:39.151,[1] Sauron-Undefined sauron.build.version INFO Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1719055059&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=0BD84igjMz3mJKu9gSXebjTgCGRS3PWAngVowZMp70s%3D"}]}]
+06.22.2024 16:47:39.151,[1] Sauron-Undefined sauron.build.version INFO Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1719055059&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=0BD84igjMz3mJKu9gSXebjTgCGRS3PWAngVowZMp70s%3D]
+06.22.2024 16:47:39.152,[1] Sauron-Undefined sauron.build.version INFO Server: [cloudflare]
+06.22.2024 16:47:39.152,[1] Sauron-Undefined sauron.build.version INFO Via: [1.1 vegur]
+06.22.2024 16:47:39.153,[1] Sauron-Undefined sauron.build.version INFO X-Powered-By: [Express]
+06.22.2024 16:47:39.186,[1] Sauron-Undefined sauron.build.version FINE RetryAnalyzer, Retrycount: 0
+06.22.2024 16:47:39.213,[1] Sauron-Undefined sauron.build.version INFO --- API Request ---
+06.22.2024 16:47:39.216,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/register
+06.22.2024 16:47:39.217,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:39.217,[1] Sauron-Undefined sauron.build.version INFO Authorization: [Bearer QpwL5tke4Pnpja7X4]
+06.22.2024 16:47:39.217,[1] Sauron-Undefined sauron.build.version INFO Content-Type: [application/json]
+06.22.2024 16:47:39.218,[1] Sauron-Undefined sauron.build.version INFO Accept: [application/json]
+06.22.2024 16:47:39.632,[1] Sauron-Undefined sauron.build.version INFO --- API Response ---
+06.22.2024 16:47:39.634,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/register
+06.22.2024 16:47:39.635,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:39.636,[1] Sauron-Undefined sauron.build.version INFO Access-Control-Allow-Origin: [*]
+06.22.2024 16:47:39.637,[1] Sauron-Undefined sauron.build.version INFO CF-Cache-Status: [DYNAMIC]
+06.22.2024 16:47:39.637,[1] Sauron-Undefined sauron.build.version INFO CF-RAY: [897bd5493ce1a92b-MAA]
+06.22.2024 16:47:39.637,[1] Sauron-Undefined sauron.build.version INFO connection: [keep-alive]
+06.22.2024 16:47:39.639,[1] Sauron-Undefined sauron.build.version INFO Content-Length: [36]
+06.22.2024 16:47:39.639,[1] Sauron-Undefined sauron.build.version INFO content-type: [application/json; charset=utf-8]
+06.22.2024 16:47:39.639,[1] Sauron-Undefined sauron.build.version INFO Date: [Sat, 22 Jun 2024 11:17:39 GMT]
+06.22.2024 16:47:39.639,[1] Sauron-Undefined sauron.build.version INFO Etag: [W/"24-4iP0za1geN2he+ohu8F0FhCjLks"]
+06.22.2024 16:47:39.640,[1] Sauron-Undefined sauron.build.version INFO Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
+06.22.2024 16:47:39.640,[1] Sauron-Undefined sauron.build.version INFO Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1719055059&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=0BD84igjMz3mJKu9gSXebjTgCGRS3PWAngVowZMp70s%3D"}]}]
+06.22.2024 16:47:39.640,[1] Sauron-Undefined sauron.build.version INFO Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1719055059&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=0BD84igjMz3mJKu9gSXebjTgCGRS3PWAngVowZMp70s%3D]
+06.22.2024 16:47:39.641,[1] Sauron-Undefined sauron.build.version INFO Server: [cloudflare]
+06.22.2024 16:47:39.642,[1] Sauron-Undefined sauron.build.version INFO Via: [1.1 vegur]
+06.22.2024 16:47:39.642,[1] Sauron-Undefined sauron.build.version INFO X-Powered-By: [Express]
+06.22.2024 16:47:39.712,[1] Sauron-Undefined sauron.build.version FINE RetryAnalyzer, Retrycount: 0
+06.22.2024 16:47:39.743,[1] Sauron-Undefined sauron.build.version INFO --- API Request ---
+06.22.2024 16:47:39.744,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/user/profile/1
+06.22.2024 16:47:39.744,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:39.744,[1] Sauron-Undefined sauron.build.version INFO Authorization: [Bearer QpwL5tke4Pnpja7X4]
+06.22.2024 16:47:39.744,[1] Sauron-Undefined sauron.build.version INFO Content-Type: [application/json]
+06.22.2024 16:47:39.744,[1] Sauron-Undefined sauron.build.version INFO Accept: [application/json]
+06.22.2024 16:47:40.267,[1] Sauron-Undefined sauron.build.version INFO --- API Response ---
+06.22.2024 16:47:40.268,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/user/profile/1
+06.22.2024 16:47:40.269,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:40.270,[1] Sauron-Undefined sauron.build.version INFO Access-Control-Allow-Origin: [*]
+06.22.2024 16:47:40.271,[1] Sauron-Undefined sauron.build.version INFO CF-Cache-Status: [BYPASS]
+06.22.2024 16:47:40.271,[1] Sauron-Undefined sauron.build.version INFO CF-RAY: [897bd54c9b3717a0-MAA]
+06.22.2024 16:47:40.272,[1] Sauron-Undefined sauron.build.version INFO connection: [keep-alive]
+06.22.2024 16:47:40.272,[1] Sauron-Undefined sauron.build.version INFO Content-Length: [2]
+06.22.2024 16:47:40.272,[1] Sauron-Undefined sauron.build.version INFO content-type: [application/json; charset=utf-8]
+06.22.2024 16:47:40.272,[1] Sauron-Undefined sauron.build.version INFO Date: [Sat, 22 Jun 2024 11:17:40 GMT]
+06.22.2024 16:47:40.273,[1] Sauron-Undefined sauron.build.version INFO Etag: [W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"]
+06.22.2024 16:47:40.273,[1] Sauron-Undefined sauron.build.version INFO Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
+06.22.2024 16:47:40.273,[1] Sauron-Undefined sauron.build.version INFO Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1719055060&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=UlHl%2FqrCv83PciN6sw5cHDpRzDUbH2VQ1OTD%2B985SiI%3D"}]}]
+06.22.2024 16:47:40.273,[1] Sauron-Undefined sauron.build.version INFO Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1719055060&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=UlHl%2FqrCv83PciN6sw5cHDpRzDUbH2VQ1OTD%2B985SiI%3D]
+06.22.2024 16:47:40.274,[1] Sauron-Undefined sauron.build.version INFO Server: [cloudflare]
+06.22.2024 16:47:40.280,[1] Sauron-Undefined sauron.build.version INFO Via: [1.1 vegur]
+06.22.2024 16:47:40.283,[1] Sauron-Undefined sauron.build.version INFO X-Powered-By: [Express]
+06.22.2024 16:47:40.312,[1] Sauron-Undefined sauron.build.version FINE RetryAnalyzer, Retrycount: 0
+06.22.2024 16:47:40.337,[1] Sauron-Undefined sauron.build.version INFO --- API Request ---
+06.22.2024 16:47:40.342,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/register
+06.22.2024 16:47:40.343,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:40.343,[1] Sauron-Undefined sauron.build.version INFO Authorization: [Bearer QpwL5tke4Pnpja7X4]
+06.22.2024 16:47:40.343,[1] Sauron-Undefined sauron.build.version INFO Content-Type: [application/json]
+06.22.2024 16:47:40.344,[1] Sauron-Undefined sauron.build.version INFO Accept: [application/json]
+06.22.2024 16:47:40.755,[1] Sauron-Undefined sauron.build.version INFO --- API Response ---
+06.22.2024 16:47:40.763,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/register
+06.22.2024 16:47:40.764,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:40.765,[1] Sauron-Undefined sauron.build.version INFO Access-Control-Allow-Origin: [*]
+06.22.2024 16:47:40.766,[1] Sauron-Undefined sauron.build.version INFO CF-Cache-Status: [DYNAMIC]
+06.22.2024 16:47:40.766,[1] Sauron-Undefined sauron.build.version INFO CF-RAY: [897bd5504f4e7ff5-MAA]
+06.22.2024 16:47:40.766,[1] Sauron-Undefined sauron.build.version INFO connection: [keep-alive]
+06.22.2024 16:47:40.766,[1] Sauron-Undefined sauron.build.version INFO Content-Length: [36]
+06.22.2024 16:47:40.767,[1] Sauron-Undefined sauron.build.version INFO content-type: [application/json; charset=utf-8]
+06.22.2024 16:47:40.767,[1] Sauron-Undefined sauron.build.version INFO Date: [Sat, 22 Jun 2024 11:17:40 GMT]
+06.22.2024 16:47:40.767,[1] Sauron-Undefined sauron.build.version INFO Etag: [W/"24-4iP0za1geN2he+ohu8F0FhCjLks"]
+06.22.2024 16:47:40.768,[1] Sauron-Undefined sauron.build.version INFO Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
+06.22.2024 16:47:40.768,[1] Sauron-Undefined sauron.build.version INFO Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1719055060&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=UlHl%2FqrCv83PciN6sw5cHDpRzDUbH2VQ1OTD%2B985SiI%3D"}]}]
+06.22.2024 16:47:40.769,[1] Sauron-Undefined sauron.build.version INFO Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1719055060&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=UlHl%2FqrCv83PciN6sw5cHDpRzDUbH2VQ1OTD%2B985SiI%3D]
+06.22.2024 16:47:40.774,[1] Sauron-Undefined sauron.build.version INFO Server: [cloudflare]
+06.22.2024 16:47:40.777,[1] Sauron-Undefined sauron.build.version INFO Via: [1.1 vegur]
+06.22.2024 16:47:40.777,[1] Sauron-Undefined sauron.build.version INFO X-Powered-By: [Express]
+06.22.2024 16:47:40.840,[1] Sauron-Undefined sauron.build.version INFO --- API Request ---
+06.22.2024 16:47:40.841,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/resources/unknown
+06.22.2024 16:47:40.841,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:40.841,[1] Sauron-Undefined sauron.build.version INFO Authorization: [Bearer QpwL5tke4Pnpja7X4]
+06.22.2024 16:47:40.841,[1] Sauron-Undefined sauron.build.version INFO Content-Type: [application/json]
+06.22.2024 16:47:40.841,[1] Sauron-Undefined sauron.build.version INFO Accept: [application/json]
+06.22.2024 16:47:41.275,[1] Sauron-Undefined sauron.build.version INFO --- API Response ---
+06.22.2024 16:47:41.285,[1] Sauron-Undefined sauron.build.version INFO https://reqres.in/api/resources/unknown
+06.22.2024 16:47:41.286,[1] Sauron-Undefined sauron.build.version INFO Headers :
+06.22.2024 16:47:41.286,[1] Sauron-Undefined sauron.build.version INFO Access-Control-Allow-Origin: [*]
+06.22.2024 16:47:41.286,[1] Sauron-Undefined sauron.build.version INFO CF-Cache-Status: [BYPASS]
+06.22.2024 16:47:41.286,[1] Sauron-Undefined sauron.build.version INFO CF-RAY: [897bd55358efb2a3-MAA]
+06.22.2024 16:47:41.287,[1] Sauron-Undefined sauron.build.version INFO connection: [keep-alive]
+06.22.2024 16:47:41.287,[1] Sauron-Undefined sauron.build.version INFO Content-Length: [2]
+06.22.2024 16:47:41.287,[1] Sauron-Undefined sauron.build.version INFO content-type: [application/json; charset=utf-8]
+06.22.2024 16:47:41.290,[1] Sauron-Undefined sauron.build.version INFO Date: [Sat, 22 Jun 2024 11:17:41 GMT]
+06.22.2024 16:47:41.292,[1] Sauron-Undefined sauron.build.version INFO Etag: [W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"]
+06.22.2024 16:47:41.292,[1] Sauron-Undefined sauron.build.version INFO Nel: [{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}]
+06.22.2024 16:47:41.292,[1] Sauron-Undefined sauron.build.version INFO Report-To: [{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1719055061&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=DpnYseomzdbmtqSalzxBgs9oZJzkTOdfhVnG1YE9M8M%3D"}]}]
+06.22.2024 16:47:41.293,[1] Sauron-Undefined sauron.build.version INFO Reporting-Endpoints: [heroku-nel=https://nel.heroku.com/reports?ts=1719055061&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=DpnYseomzdbmtqSalzxBgs9oZJzkTOdfhVnG1YE9M8M%3D]
+06.22.2024 16:47:41.294,[1] Sauron-Undefined sauron.build.version INFO Server: [cloudflare]
+06.22.2024 16:47:41.295,[1] Sauron-Undefined sauron.build.version INFO Via: [1.1 vegur]
+06.22.2024 16:47:41.297,[1] Sauron-Undefined sauron.build.version INFO X-Powered-By: [Express]
+06.22.2024 16:47:41.339,[1] Sauron-Undefined sauron.build.version FINE RetryAnalyzer, Retrycount: 0
+06.22.2024 16:47:41.418,[1] Sauron-Undefined sauron.build.version INFO allure report has been genarated
