@@ -4,6 +4,7 @@ package com.scripBox.apitest.pojos;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import javax.annotation.processing.Generated;
+
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -13,8 +14,8 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "data",
-    "support"
+        "data",
+        "support"
 })
 @Generated("jsonschema2pojo")
 public class Users {
@@ -62,18 +63,18 @@ public class Users {
         sb.append(Users.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this))).append('[');
         sb.append("data");
         sb.append('=');
-        sb.append(((this.data == null)?"<null>":this.data));
+        sb.append(((this.data == null) ? "<null>" : this.data));
         sb.append(',');
         sb.append("support");
         sb.append('=');
-        sb.append(((this.support == null)?"<null>":this.support));
+        sb.append(((this.support == null) ? "<null>" : this.support));
         sb.append(',');
         sb.append("additionalProperties");
         sb.append('=');
-        sb.append(((this.additionalProperties == null)?"<null>":this.additionalProperties));
+        sb.append(((this.additionalProperties == null) ? "<null>" : this.additionalProperties));
         sb.append(',');
-        if (sb.charAt((sb.length()- 1)) == ',') {
-            sb.setCharAt((sb.length()- 1), ']');
+        if (sb.charAt((sb.length() - 1)) == ',') {
+            sb.setCharAt((sb.length() - 1), ']');
         } else {
             sb.append(']');
         }
@@ -83,9 +84,9 @@ public class Users {
     @Override
     public int hashCode() {
         int result = 1;
-        result = ((result* 31)+((this.additionalProperties == null)? 0 :this.additionalProperties.hashCode()));
-        result = ((result* 31)+((this.data == null)? 0 :this.data.hashCode()));
-        result = ((result* 31)+((this.support == null)? 0 :this.support.hashCode()));
+        result = ((result * 31) + ((this.additionalProperties == null) ? 0 : this.additionalProperties.hashCode()));
+        result = ((result * 31) + ((this.data == null) ? 0 : this.data.hashCode()));
+        result = ((result * 31) + ((this.support == null) ? 0 : this.support.hashCode()));
         return result;
     }
 
@@ -98,7 +99,7 @@ public class Users {
             return false;
         }
         Users rhs = ((Users) other);
-        return ((((this.additionalProperties == rhs.additionalProperties)||((this.additionalProperties!= null)&&this.additionalProperties.equals(rhs.additionalProperties)))&&((this.data == rhs.data)||((this.data!= null)&&this.data.equals(rhs.data))))&&((this.support == rhs.support)||((this.support!= null)&&this.support.equals(rhs.support))));
+        return ((((this.additionalProperties == rhs.additionalProperties) || ((this.additionalProperties != null) && this.additionalProperties.equals(rhs.additionalProperties))) && ((this.data == rhs.data) || ((this.data != null) && this.data.equals(rhs.data)))) && ((this.support == rhs.support) || ((this.support != null) && this.support.equals(rhs.support))));
     }
 
 }

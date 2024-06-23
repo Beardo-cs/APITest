@@ -21,10 +21,10 @@ public class LoginServiceImpl implements LoginService {
         bean.setResourceClass(ScripBoxApi.class);
         ScripBoxApi scripBoxApi = bean.create(ScripBoxApi.class);
         Credentials credentials = new Credentials();
-        credentials.setEmail("eve.holt@reqres.in");
-        credentials.setPassword("cityslicka");
-        ResToken users = scripBoxApi.LoginAPI(credentials);
-        SauronLogger.getLogger().info("Login called and Token is "+ users.getToken());
-        return Map.of("Authorization","Bearer "+ users.getToken());
+        credentials.setEmail(Config.getConfigProperty("email"));
+        credentials.setPassword(Config.getConfigProperty("password"));
+        ResToken users = scripBoxApi.RegisterAPI(credentials);
+        SauronLogger.getLogger().info("Login called and Token is " + users.getToken());
+        return Map.of("Authorization", "Bearer " + users.getToken());
     }
 }

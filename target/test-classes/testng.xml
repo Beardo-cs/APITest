@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite verbose="1" name="API TEST" annotations="JDK">
-  <parameter name="pagesPackage" value="com.qapitol.sample.apitest"/>
-  <parameter name="api.base.url" value="https://reqres.in/api"/>
-  <parameter name="sessions" value="sessions.yaml"/>
-  <test name="Sauron 4 api testcases">
-    <classes>
-      <class name="com.scripBox.apitest.ApiTest"/>
-    </classes>
-  </test>
+    <parameter name="pagesPackage" value="com.qapitol.sample.apitest"/>
+    <parameter name="api.base.url" value="https://reqres.in/api"/>
+    <parameter name="sessions" value="sessions.yaml"/>
+    <test name="ScripBox Assignment API testcases">
+        <classes>
+            <class name="com.scripBox.apitest.ApiTest"/>
+        </classes>
+    </test>
 </suite>

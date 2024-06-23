@@ -4,6 +4,7 @@ package com.scripBox.apitest.pojos;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import javax.annotation.processing.Generated;
+
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -13,8 +14,8 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
-    "email",
-    "password"
+        "email",
+        "password"
 })
 @Generated("jsonschema2pojo")
 public class TokenResponse {
@@ -62,18 +63,18 @@ public class TokenResponse {
         sb.append(TokenResponse.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this))).append('[');
         sb.append("email");
         sb.append('=');
-        sb.append(((this.email == null)?"<null>":this.email));
+        sb.append(((this.email == null) ? "<null>" : this.email));
         sb.append(',');
         sb.append("password");
         sb.append('=');
-        sb.append(((this.password == null)?"<null>":this.password));
+        sb.append(((this.password == null) ? "<null>" : this.password));
         sb.append(',');
         sb.append("additionalProperties");
         sb.append('=');
-        sb.append(((this.additionalProperties == null)?"<null>":this.additionalProperties));
+        sb.append(((this.additionalProperties == null) ? "<null>" : this.additionalProperties));
         sb.append(',');
-        if (sb.charAt((sb.length()- 1)) == ',') {
-            sb.setCharAt((sb.length()- 1), ']');
+        if (sb.charAt((sb.length() - 1)) == ',') {
+            sb.setCharAt((sb.length() - 1), ']');
         } else {
             sb.append(']');
         }
@@ -83,9 +84,9 @@ public class TokenResponse {
     @Override
     public int hashCode() {
         int result = 1;
-        result = ((result* 31)+((this.password == null)? 0 :this.password.hashCode()));
-        result = ((result* 31)+((this.additionalProperties == null)? 0 :this.additionalProperties.hashCode()));
-        result = ((result* 31)+((this.email == null)? 0 :this.email.hashCode()));
+        result = ((result * 31) + ((this.password == null) ? 0 : this.password.hashCode()));
+        result = ((result * 31) + ((this.additionalProperties == null) ? 0 : this.additionalProperties.hashCode()));
+        result = ((result * 31) + ((this.email == null) ? 0 : this.email.hashCode()));
         return result;
     }
 
@@ -98,7 +99,7 @@ public class TokenResponse {
             return false;
         }
         TokenResponse rhs = ((TokenResponse) other);
-        return ((((this.password == rhs.password)||((this.password!= null)&&this.password.equals(rhs.password)))&&((this.additionalProperties == rhs.additionalProperties)||((this.additionalProperties!= null)&&this.additionalProperties.equals(rhs.additionalProperties))))&&((this.email == rhs.email)||((this.email!= null)&&this.email.equals(rhs.email))));
+        return ((((this.password == rhs.password) || ((this.password != null) && this.password.equals(rhs.password))) && ((this.additionalProperties == rhs.additionalProperties) || ((this.additionalProperties != null) && this.additionalProperties.equals(rhs.additionalProperties)))) && ((this.email == rhs.email) || ((this.email != null) && this.email.equals(rhs.email))));
     }
 
 }

@@ -26,5 +26,5 @@ public class ConfigProperties extends AbstractConfigInitializer {
         Config.loadProperties(dataLocaleFile);
     }
 
-    }
+}
 
